@@ -1,20 +1,30 @@
 def create_an_empty_array
-  
+ array_1 = []
 end
 
 def create_an_array
-  
+ array_1 = ["apples","oranges","peaches","bananas"]
+ 
+
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(array,element)
+  array_1 = []
+  array_1 << element
   
 end
 
 def add_element_to_start_of_array(array, element)
+  array_1 = ["apples"]
+  array_1.unshift(element)
   
 end
 
 def remove_element_from_end_of_array(array)
+  array_1 = ["bananas","apple"]
+  array_1.pop
+end
+  def retrieve_last_element_from_array
   
 end
 
