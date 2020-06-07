@@ -29,7 +29,7 @@ end
 end
 
 def remove_element_from_start_of_array(array)
-  array_1 = ["bananas","apples"]
+  array_1 = ["wow","apples"]
   array_1.shift
   end
 
